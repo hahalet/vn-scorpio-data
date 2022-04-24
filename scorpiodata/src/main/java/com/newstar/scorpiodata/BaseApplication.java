@@ -33,7 +33,7 @@ public class BaseApplication extends Application {
     }
 
     public void initKochava(String kochavaGuid) {
-        LogUtils.i("luolaigang", "initKochava");
+        LogUtils.i("luolaigang ", "initKochava");
         // Start the Kochava Tracker
         Tracker.Configuration configuration = new Tracker.Configuration(this);
         configuration.setAppGuid(kochavaGuid);
