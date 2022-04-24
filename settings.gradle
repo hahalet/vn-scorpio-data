@@ -1,0 +1,3 @@
+rootProject.name='scorpio'
+include ':app'
+include ':scorpiodata'

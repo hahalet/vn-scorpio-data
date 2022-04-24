@@ -1,0 +1,30 @@
+<resources>
+    <string name="permission_contacts_hint">读取通讯录;\n</string>
+    <string name="permission_camera_hint">使用相机;\n</string>
+    <string name="permission_phone_hint">读取手机状态;\n</string>
+    <string name="permission_storage_hint">应用程序读写外部存储;\n</string>
+    <string name="permission_location_hint">应用访问精确位置;\n</string>
+    <string name="permission_sms_hint">应用程序读取 SMS 消息;\n</string>
+    <string name="permission_call_phone_hint">拨打电话;\n</string>
+    <string name="permission_read_calendar_hint">读写日历;\n</string>
+    <string name="permission_write_calendar_hint">读写日历;\n</string>
+
+    <!--Chi tiết cấp quyền-->
+    <string name="shoud_open_permissions">应用程序需要以下权限:\n</string>
+
+    <string name="ok">确定</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+
+    <string name="click_setting">要使升级正常，请单击按钮，启用安装权限</string>
+    <string name="auth_failure">升级失败,无法安装应用程序</string>
+    <string name="already_new">已是最新版本</string>
+    <string name="install">安裝</string>
+    <string name="gp_update">通过Google Play安装</string>
+    <string name="find_new_version">发现新版本</string>
+    <string name="download">下载</string>
+    <string name="downloading">下载中</string>
+    <string name="start_download">开始下载</string>
+    <string name="wait_download">下载中请耐心等待</string>
+    <string name="allow_storage_permission">请允许读写外部存储权限</string>
+</resources>

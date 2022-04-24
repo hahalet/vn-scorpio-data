@@ -1,0 +1,30 @@
+<resources>
+    <string name="permission_contacts_hint">contacts;\n</string>
+    <string name="permission_camera_hint">camera;\n</string>
+    <string name="permission_phone_hint">phone;\n</string>
+    <string name="permission_storage_hint">storage;\n</string>
+    <string name="permission_location_hint">location;\n</string>
+    <string name="permission_sms_hint">sms;\n</string>
+    <string name="permission_call_phone_hint">call;\n</string>
+    <string name="permission_read_calendar_hint">read;\n</string>
+    <string name="permission_write_calendar_hint">write;\n</string>
+
+    <!--Chi tiết cấp quyền-->
+    <string name="shoud_open_permissions">shoud open permissions:\n</string>
+
+    <string name="ok">ok</string>
+    <string name="setting">setting</string>
+    <string name="cancel">cancel</string>
+
+    <string name="click_setting">click setting</string>
+    <string name="auth_failure">auth failure</string>
+    <string name="already_new">already new</string>
+    <string name="install">install</string>
+    <string name="gp_update">gp update</string>
+    <string name="find_new_version">find new version</string>
+    <string name="download">download</string>
+    <string name="downloading">downloading</string>
+    <string name="start_download">start download</string>
+    <string name="wait_download">wait download</string>
+    <string name="allow_storage_permission">allow storage permission</string>
+</resources>

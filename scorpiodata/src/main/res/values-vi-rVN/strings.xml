@@ -1,0 +1,30 @@
+<resources>
+    <string name="permission_contacts_hint">Truy cập danh bạ;\n</string>
+    <string name="permission_camera_hint">Truy cập máy ảnh;\n</string>
+    <string name="permission_phone_hint">Thu thập thông tin thiết bị;\n</string>
+    <string name="permission_storage_hint">Truy cập bộ nhớ ngoài;\n</string>
+    <string name="permission_location_hint">Mở định vị;\n</string>
+    <string name="permission_sms_hint">Truy cập thông tin;\n</string>
+    <string name="permission_call_phone_hint">Gọi điện thoại;\n</string>
+    <string name="permission_read_calendar_hint">Đọc lịch trình;\n</string>
+    <string name="permission_write_calendar_hint">Viết lịch trình;\n</string>
+
+    <!--Chi tiết cấp quyền-->
+    <string name="shoud_open_permissions">Ứng dụng này cần những quyền dưới đây:\n</string>
+
+    <string name="ok">Chắc chắn</string>
+    <string name="setting">Cài đặt</string>
+    <string name="cancel">Hủy bỏ</string>
+
+    <string name="click_setting">Để quá trình nâng cấp diễn ra bình thường, vui lòng nhấn vào nút Cài đặt, cho phép cài đặt ứng dụng không rõ nguồn gốc</string>
+    <string name="auth_failure">Cấp quyền thất bại, không thể cài đặt ứng dụng</string>
+    <string name="already_new">Đã là phiên bản mới nhất</string>
+    <string name="install">Cài đặt</string>
+    <string name="gp_update">Cập nhật tại Google Play</string>
+    <string name="find_new_version">Phát hiện phiên bản mới</string>
+    <string name="download">Tải xuống</string>
+    <string name="downloading">Đang tải</string>
+    <string name="start_download">Bắt đầu tải, kiểm tra tiến độ tải ở thanh thông báo</string>
+    <string name="wait_download">Đang tải tập tin, vui lòng đợi</string>
+    <string name="allow_storage_permission">Vui lòng cho phép quyền đọc tập tin</string>
+</resources>

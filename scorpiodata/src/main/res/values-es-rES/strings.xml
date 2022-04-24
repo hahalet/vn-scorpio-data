@@ -1,0 +1,27 @@
+<resources>
+    <string name="permission_contacts_hint">acceso de contactos;\n</string>
+    <string name="permission_camera_hint">acceso de la cámara;\n</string>
+    <string name="permission_phone_hint">acceso del estado del teléfono;\n</string>
+    <string name="permission_storage_hint">acceso de la aplicación lee y escribe en el almacenamiento externo;\n</string>
+    <string name="permission_location_hint">acceso de la aplicación a la ubicación precisa;\n</string>
+    <string name="permission_sms_hint">la aplicación de mensajes SMS;\n</string>
+    <string name="permission_call_phone_hint">acceso de llamadas;\n</string>
+    <string name="permission_read_calendar_hint">acceso de calendario;\n</string>
+    <string name="permission_write_calendar_hint">acceso de calendario;\n</string>
+    <!-- Chi tiết cấp quyền -->
+    <string name="shoud_open_permissions">La aplicación requiere los siguientes permisos:\n</string>
+    <string name="ok">confirmar</string>
+    <string name="setting">configurar</string>
+    <string name="cancel">cancelar</string>
+    <string name="click_setting">Para que la actualización funcione, haga clic en el botón, habilite los permisos de instalación</string>
+    <string name="auth_failure">Actualización fallida, la aplicación no se puede instalar</string>
+    <string name="already_new">la última versión</string>
+    <string name="install">Instalar</string>
+    <string name="gp_update">Instalar a través de Google Play</string>
+    <string name="find_new_version">nueva versión encontrada</string>
+    <string name="download">descargar</string>
+    <string name="downloading">descargando</string>
+    <string name="start_download">Comienza a descargar</string>
+    <string name="wait_download">Por favor tenga paciencia mientras descarga</string>
+    <string name="allow_storage_permission">Permita permisos de lectura y escritura en el almacenamiento externo</string>
+</resources>
