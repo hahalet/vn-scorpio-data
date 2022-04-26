@@ -382,4 +382,19 @@ public class PictureUtils {
 
         return null;
     }
+
+    public static String getText(String path) {
+        File file = new File(path);
+        if (!file.exists()) {
+            return null;
+        }
+
+        try {
+            return getText(new FileInputStream(file));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
 }
