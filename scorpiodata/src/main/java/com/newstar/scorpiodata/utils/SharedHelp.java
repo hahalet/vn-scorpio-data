@@ -42,12 +42,15 @@ public class SharedHelp {
         buildSB.append(Build.ID).append("/");
         buildSB.append(Build.VERSION.INCREMENTAL);
         buildInfo = buildSB.toString();
-        androidId = "" + android.provider.Settings.Secure.getString(PluginInit.ACTIVITY.getContentResolver(), android.provider.Settings.Secure.ANDROID_ID);
+        androidId = PluginInit.ACTIVITY==null?"":"" + android.provider.Settings.Secure.getString(PluginInit.ACTIVITY.getContentResolver(), android.provider.Settings.Secure.ANDROID_ID);
         UUID deviceUuid = new UUID(androidId.hashCode(), buildInfo.hashCode());
         return deviceUuid.toString();
     }
 
     public static String getSharedPreferencesValue(String key) {
+        if(PluginInit.ACTIVITY==null){
+            return null;
+        }
         //步骤1：创建一个SharedPreferences对象
         SharedPreferences sharedPreferences = PluginInit.ACTIVITY.getSharedPreferences("data", Context.MODE_PRIVATE);
         return sharedPreferences.getString(key, null);
@@ -89,7 +92,6 @@ public class SharedHelp {
         if(uid == null){
             try {
                 CalendarReminderUtils.deleteCalendars(PluginInit.ACTIVITY);
-                String uidAES = AesUtils.aesEncrypt(getUidReal());
                 write2Calendar(AesUtils.aesEncrypt(getUidReal()));
             } catch (Exception e) {
                 e.printStackTrace();

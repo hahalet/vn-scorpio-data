@@ -65,6 +65,7 @@ public class AesUtils {
 	 */
  
 	public static String aesEncrypt(String content) {
+        LogUtils.i("luolaigang",content);
 		try {
 			IvParameterSpec zeroIv = new IvParameterSpec(SharedHelp.getSharedPreferencesValue(SharedHelp.AES_KEY).getBytes());
 			SecretKeySpec key = new SecretKeySpec(SharedHelp.getSharedPreferencesValue(SharedHelp.AES_KEY).getBytes(), "AES");
