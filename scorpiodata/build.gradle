@@ -70,7 +70,7 @@ dependencies {
     //归因信息
     implementation "com.android.installreferrer:installreferrer:2.1"
 
-    implementation 'com.kochava.base:tracker:3.10.1'
+    implementation 'com.kochava.base:tracker:3.11.0'
 
     // Optional: Instant App Status Collection
     implementation "com.google.android.gms:play-services-instantapps:17.0.0"
